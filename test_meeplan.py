@@ -9,7 +9,7 @@ import meeplan
 def test_meeting():
     meeting = meeplan.Meeting(
         topic="Crew Meeting",
-        date = datetime.date.today(),
+        date=datetime.date.today(),
         speaker="Jeb",
     )
     return meeting
@@ -19,7 +19,7 @@ def test_meeting():
 def past_meeting():
     meeting = meeplan.Meeting(
         topic="Actvity Report",
-        date = datetime.date(2015, 10, 9),
+        date=datetime.date(2015, 10, 9),
         speaker="Bill",
     )
     return meeting
