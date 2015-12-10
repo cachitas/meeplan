@@ -1,3 +1,3 @@
 # meeplan
 
-:warning: Under construction!
+:warning: Under development!
