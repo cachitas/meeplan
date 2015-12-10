@@ -14,6 +14,9 @@ class Meeting:
         self.date = date
         self.speaker = speaker or suggest_next_speaker(topic)
 
+    def __str__(self):
+        return ", ".join([str(self.date), self.topic, self.speaker])
+
 
 def suggest_next_speaker(topic):
     # TODO improve selection
