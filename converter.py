@@ -21,6 +21,7 @@ class TextFrame(ttk.LabelFrame):
 
     def _init_ui(self):
         self.textbox = ScrolledText(self, width=70, height=10)
+        self.textbox.bind("<1>", lambda event: self.textbox.focus_set())
         self.textbox.pack(expand=True, fill='both')
 
 
