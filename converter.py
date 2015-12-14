@@ -1,4 +1,3 @@
-from collections import defaultdict
 import datetime
 import tkinter as tk
 from tkinter import ttk
